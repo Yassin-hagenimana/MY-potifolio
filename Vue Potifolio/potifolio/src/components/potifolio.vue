@@ -131,10 +131,10 @@ Analyze and debug issues in a complex client/server environment</div>
       <ul>
        <li> 
          <div class="list">
-         <h3>Frontend</h3>
           &check; HTML<br>
           &check; CSS<br>
-          &check; Bootstrap & Jquery<br>
+          &check; Bootstrap<br>
+          &check; Jquery<br>
           &check; Vue js & Vuetify<br>
            &check; React js<br>
           &check; Javascript<br>
@@ -143,7 +143,6 @@ Analyze and debug issues in a complex client/server environment</div>
  
       <li>
         <div class="list">
-         <h3>Backend</h3>
         &check; Node js<br>
         &check; Spring boot<br>
         &check; Laravel<br>
@@ -152,7 +151,6 @@ Analyze and debug issues in a complex client/server environment</div>
 
      <li> 
        <div class="list">
-         <h3>Design</h3>
           &check; XD<br>
           &check; PSD Design<br>
           &check; Figma<br>
@@ -161,29 +159,73 @@ Analyze and debug issues in a complex client/server environment</div>
 
          <li>
          <div class="list">
-         <h3>Database</h3>
            &check; MongoDB<br>
             &check; MysQl<br>
             &check; PostgreSQL<br>
        </div>
        </li>
 
+      <li>
+       <div class="list">
+           &check; Embedded Systemns<br>
+           &check; System design and Analysis<br>
+          &check;  Networking<br>
+          &check;  C/C++<br>
+          &check;  Java<br>
+          &check; Php
+       </div>
+       </li>
         <li>
        <div class="list">
-         <h3>Mobile</h3>
-           &check;Java<br>
            &check; React Native<br>
           &check;Vue Native<br>
        </div>
        </li>
     </ul>
-    
        </div>
       </div>
     </div>
-
-
   </section>
+
+
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3" style="text-align:center;">Contact Me</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+    </form>
+    </div>
+
+</div>
+
+
+  
   <footer class="section footer">
     <div class="container w-container">
       <div class="footer-menu">
