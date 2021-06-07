@@ -193,7 +193,7 @@ Analyze and debug issues in a complex client/server environment</div>
     <div id="fcf-form">
     <h3 class="fcf-h3" style="text-align:center;">Contact Me</h3>
 
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+    <form id="fcf-form-id" class="fcf-form-class">
         
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Your name</label>
@@ -239,11 +239,12 @@ Analyze and debug issues in a complex client/server environment</div>
             </li>
             <li><a href="#" class="footer-link">Services</a>
             </li>
-            <li><a href="#" class="footer-link">Blog</a><a href="#" class="footer-link">Careers</a>
+            <li><a href="#" class="footer-link">Skills</a>
+            <a href="#" class="footer-link">Careers</a>
             </li>
           </ul>
         </div>
-        <div class="footer-column">
+        <!-- <div class="footer-column">
           <h3 class="footer-label">Resources</h3>
           <ul role="list" class="w-list-unstyled">
             <li><a href="#" class="footer-link">Downloadables</a><a href="#" class="footer-link">Ebooks</a>
@@ -251,23 +252,26 @@ Analyze and debug issues in a complex client/server environment</div>
             <li><a href="#" class="footer-link">Press &amp; Assets</a>
             </li>
           </ul>
-        </div>
+        </div> -->
+
         <div class="footer-column">
-          <h3 class="footer-label">Contact us</h3>
+          <h3 class="footer-label">Contact me</h3>
           <ul role="list" class="w-list-unstyled">
-            <li><a href="mailto:info@mailomattic.co?subject=Howdy%20%F0%9F%91%8B" class="footer-link">hyassin509@gmail.com</a>
+            <li><a href="mailto:hyassin509@gmail.com?subject=Howdy%20%F0%9F%91%8B" class="footer-link">hyassin509@gmail.com</a>
             </li>
             <li><a href="https://www.facebook.com/profile.php?id=100027382579334" class="footer-link">Facebook</a>
             </li>
-            <li><a href="#" class="footer-link">Twitter</a>
-            </li>
+            <li><a href="#" class="footer-link">Twitter</a></li>
+                 <li><a href="#" class="footer-link">Instrgram</a></li>
+                 <li><a href="#" class="footer-link">Linkedin</a></li>
+                  <li><a href="#" class="footer-link">07 8662 14 07</a></li>
+                  <li><a href="#" class="footer-link">Github</a></li>
           </ul>
         </div>
       </div>
       <div class="subfooter">
-        <div>Made by <span class="lightblue">♥︎</span> Yassin.</div>
-        <div>@COPYRIGHT 2021
-        </div>
+        <div>Made by <span class="lightblue"></span> Yassin.</div>
+        <div>Copyright  {{CurrenteDateTime()}}</div>
       </div>
     </div>
   </footer>
@@ -277,6 +281,17 @@ Analyze and debug issues in a complex client/server environment</div>
 <script>
 export default {
   name: 'potifolio',
+
+  methods: {
+    CurrenteDateTime(){
+      const current=new Date()
+      const date=current.getFullYear()+"-"+(current.getMonth()+1)+"-"+(current.getDate())
+      //   const time = current.getHours() + ":" + current.getMinutes() + ":" + current.getSeconds();
+      //  const dateTime = date +' '+ time;
+    const dateTime=date
+    return dateTime
+    }
+  },
 }
 </script>
 
