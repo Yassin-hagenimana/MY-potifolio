@@ -149,13 +149,6 @@ Analyze and debug issues in a complex client/server environment</div>
        </div>
        </li>
 
-     <li> 
-       <div class="list">
-          &check; XD<br>
-          &check; PSD Design<br>
-          &check; Figma<br>
-       </div>
-      </li>
 
          <li>
          <div class="list">
@@ -194,7 +187,6 @@ Analyze and debug issues in a complex client/server environment</div>
     <h3 class="fcf-h3" style="text-align:center;">Contact Me</h3>
 
     <form id="fcf-form-id" class="fcf-form-class">
-        
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Your name</label>
             <div class="fcf-input-group">
@@ -240,38 +232,39 @@ Analyze and debug issues in a complex client/server environment</div>
             <li><a href="#" class="footer-link">Services</a>
             </li>
             <li><a href="#" class="footer-link">Skills</a>
-            <a href="#" class="footer-link">Careers</a>
+            <a href="#" class="footer-link">Contact</a>
             </li>
           </ul>
         </div>
-        <!-- <div class="footer-column">
-          <h3 class="footer-label">Resources</h3>
+
+        <div class="footer-column">
+          <h3 class="footer-label">Address</h3>
           <ul role="list" class="w-list-unstyled">
-            <li><a href="#" class="footer-link">Downloadables</a><a href="#" class="footer-link">Ebooks</a>
-            </li>
-            <li><a href="#" class="footer-link">Press &amp; Assets</a>
+            <li><a href="#" class="footer-link">Rwanda-Eastern</a>
+            <a href="#" class="footer-link">Kayonza-Kabarondo</a></li>
+            <li><a href="#" class="footer-link">07 8662 14 07</a></li>
+            <li><a href="#" @click="emailWindow()" class="footer-link">hyassin509@gmail.com</a>
             </li>
           </ul>
-        </div> -->
+        </div>
+
 
         <div class="footer-column">
           <h3 class="footer-label">Contact me</h3>
           <ul role="list" class="w-list-unstyled">
-            <li><a href="mailto:hyassin509@gmail.com?subject=Howdy%20%F0%9F%91%8B" class="footer-link">hyassin509@gmail.com</a>
-            </li>
-            <li><a href="https://www.facebook.com/profile.php?id=100027382579334" class="footer-link">Facebook</a>
-            </li>
-            <li><a href="#" class="footer-link">Twitter</a></li>
-                 <li><a href="#" class="footer-link">Instrgram</a></li>
-                 <li><a href="#" class="footer-link">Linkedin</a></li>
-                  <li><a href="#" class="footer-link">07 8662 14 07</a></li>
-                  <li><a href="#" class="footer-link">Github</a></li>
+            <li><a href="#" @click="facebookWindow()" class="footer-link">Facebook</a></li>
+            <li><a href="#" @click="twitterWindow()" class="footer-link">Twitter</a></li>
+            <li><a href="#"  @click="instgramWindow()" class="footer-link">Instrgram</a></li>
+            <li><a href="#" @click="linkedinWindow()" class="footer-link">Linkedin</a></li>
+        
+            <li><a href="#" @click="gitWindow()" class="footer-link">Github</a></li>
           </ul>
         </div>
       </div>
-      <div class="subfooter">
+
+       <div class="subfooter">
         <div>Made by <span class="lightblue"></span> Yassin.</div>
-        <div>Copyright  {{CurrenteDateTime()}}</div>
+        <div>@Copyright  {{CurrenteDateTime()}}</div>
       </div>
     </div>
   </footer>
@@ -285,12 +278,32 @@ export default {
   methods: {
     CurrenteDateTime(){
       const current=new Date()
-      const date=current.getFullYear()+"-"+(current.getMonth()+1)+"-"+(current.getDate())
-      //   const time = current.getHours() + ":" + current.getMinutes() + ":" + current.getSeconds();
-      //  const dateTime = date +' '+ time;
+      /* const date=current.getFullYear()+"-"+(current.getMonth()+1)+"-"+(current.getDate())
+         const time = current.getHours() + ":" + current.getMinutes() + ":" + current.getSeconds();
+         const dateTime = date +' '+ time;
+      */
+    const date=current.getFullYear()
     const dateTime=date
     return dateTime
-    }
+    },
+    facebookWindow(){
+      window.open("https://www.facebook.com/profile.php?id=100027382579334","_blank")
+    },
+    instgramWindow(){
+      window.open("https://www.instagram.com/hageenimana/","_blank")
+    },
+    twitterWindow(){
+      window.open("https://twitter.com/Hagenimanayass1","_blank")
+    },
+    linkedinWindow(){
+      window.open("https://www.linkedin.com/in/hagenimana-yassin-0ab9a51a3/","_blank")
+    },
+    gitWindow(){
+      window.open("https://github.com/Yassin-hagenimana","_blank")
+    },
+  emailWindow(){
+    window.open("mailto:hyassin509@gmail.com?subject","_blank")
+  }
   },
 }
 </script>
