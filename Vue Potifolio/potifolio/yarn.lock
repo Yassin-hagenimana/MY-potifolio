@@ -1968,6 +1968,13 @@
   "resolved" "https://registry.npm.taobao.org/aws4/download/aws4-1.11.0.tgz?cache=0&sync_timestamp=1604101385256&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.11.0.tgz"
   "version" "1.11.0"
 
+"axios@^0.21.1":
+  "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
+  "version" "0.21.1"
+  dependencies:
+    "follow-redirects" "^1.10.0"
+
 "babel-eslint@^10.1.0":
   "integrity" "sha1-aWjlaKkQt4+zd5zdi2rC9HmUMjI="
   "resolved" "https://registry.npm.taobao.org/babel-eslint/download/babel-eslint-10.1.0.tgz"
@@ -3649,6 +3656,11 @@
     "is-date-object" "^1.0.1"
     "is-symbol" "^1.0.2"
 
+"es6-object-assign@^1.1.0":
+  "integrity" "sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw="
+  "resolved" "https://registry.npmjs.org/es6-object-assign/-/es6-object-assign-1.1.0.tgz"
+  "version" "1.1.0"
+
 "escalade@^3.1.1":
   "integrity" "sha1-2M/ccACWXFoBdLSoLqpcBVJ0LkA="
   "resolved" "https://registry.npm.taobao.org/escalade/download/escalade-3.1.1.tgz?cache=0&sync_timestamp=1602567306925&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescalade%2Fdownload%2Fescalade-3.1.1.tgz"
@@ -4180,7 +4192,7 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0":
+"follow-redirects@^1.0.0", "follow-redirects@^1.10.0":
   "integrity" "sha1-2RFN7Qoc/dM04WTmZirQK/2R/0M="
   "resolved" "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.1.tgz"
   "version" "1.14.1"
@@ -4259,6 +4271,11 @@
   "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
   "resolved" "https://registry.npm.taobao.org/fs.realpath/download/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
+
+"fsevents@^1.2.7", "fsevents@~2.3.1":
+  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+  "version" "2.3.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0="
@@ -7152,6 +7169,11 @@
   "resolved" "https://registry.nlark.com/promise-inflight/download/promise-inflight-1.0.1.tgz"
   "version" "1.0.1"
 
+"promise-polyfill@^6.0.2":
+  "integrity" "sha1-36lpQ+qcEh/KTem1hoyznTRy4Fc="
+  "resolved" "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-6.1.0.tgz"
+  "version" "6.1.0"
+
 "proxy-addr@~2.0.5":
   "integrity" "sha1-8Z/mnOqzEe65S0LnDowgcPm6ECU="
   "resolved" "https://registry.nlark.com/proxy-addr/download/proxy-addr-2.0.7.tgz"
@@ -8445,6 +8467,14 @@
     "stable" "^0.1.8"
     "unquote" "~1.1.1"
     "util.promisify" "~1.0.0"
+
+"sweetalert@^2.1.2":
+  "integrity" "sha512-iWx7X4anRBNDa/a+AdTmvAzQtkN1+s4j/JJRWlHpYE8Qimkohs8/XnFcWeYHH2lMA8LRCa5tj2d244If3S/hzA=="
+  "resolved" "https://registry.npmjs.org/sweetalert/-/sweetalert-2.1.2.tgz"
+  "version" "2.1.2"
+  dependencies:
+    "es6-object-assign" "^1.1.0"
+    "promise-polyfill" "^6.0.2"
 
 "table@^5.2.3":
   "integrity" "sha1-EpLRlQDOP4YFOwXw6Ofko7shB54="
