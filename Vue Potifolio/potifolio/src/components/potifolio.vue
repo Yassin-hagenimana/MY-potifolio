@@ -298,6 +298,12 @@ export default {
        this.contact.Names=""
        this.contact.Email=""
        this.contact.Message=""
+
+       if(this.contact.Message.length<5){
+          swal("Success","Message is short","success")
+          console.log(this.contact.Message.length())
+       }
+
        swal("Success","Your Contact sent successfully","success")
       } catch (error) {
         console.log(error)
