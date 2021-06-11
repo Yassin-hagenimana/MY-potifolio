@@ -121,6 +121,7 @@ Analyze and debug issues in a complex client/server environment</div>
       </div>
     </div>
   </section>
+  
   <section class="cta bg-dark">
     <div class="container-flex call-to-action w-container">
       <div class="call-to-action-wrapper">
@@ -186,25 +187,27 @@ Analyze and debug issues in a complex client/server environment</div>
     <div id="fcf-form">
     <h3 class="fcf-h3" style="text-align:center;">Contact Me</h3>
 
-    <form id="fcf-form-id" class="fcf-form-class">
+
+    <form id="fcf-form-id" class="fcf-form-class" v-on:submit.prevent="Contact">
         <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
+            <label for="Name" class="fcf-label" >Your name</label>
             <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required v-model="contact.Names">
             </div>
         </div>
 
         <div class="fcf-form-group">
             <label for="Email" class="fcf-label">Your email address</label>
             <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required v-model="contact.Email">
             </div>
         </div>
 
         <div class="fcf-form-group">
             <label for="Message" class="fcf-label">Your message</label>
             <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6"
+                v-model="contact.Message" maxlength="3000" required></textarea>
             </div>
         </div>
 
@@ -256,7 +259,6 @@ Analyze and debug issues in a complex client/server environment</div>
             <li><a href="#" @click="twitterWindow()" class="footer-link">Twitter</a></li>
             <li><a href="#"  @click="instgramWindow()" class="footer-link">Instrgram</a></li>
             <li><a href="#" @click="linkedinWindow()" class="footer-link">Linkedin</a></li>
-        
             <li><a href="#" @click="gitWindow()" class="footer-link">Github</a></li>
           </ul>
         </div>
@@ -272,10 +274,36 @@ Analyze and debug issues in a complex client/server environment</div>
 </template>
 
 <script>
+import axios from 'axios';
+import swal from "sweetalert";
 export default {
   name: 'potifolio',
 
+  data(){
+     return{
+      contact:{
+
+      Names:"",
+      Email:"",
+      Message:""
+      }
+    }
+  },
+
   methods: {
+    async Contact(){
+      try {
+       let response =await axios.post("http://localhost:8000/api/Contacts/AddContacts",this.contact)
+       console.log(response)
+       this.contact.Names=""
+       this.contact.Email=""
+       this.contact.Message=""
+       swal("Success","Your Contact sent successfully","success")
+      } catch (error) {
+        console.log(error)
+      }
+
+    },
     CurrenteDateTime(){
       const current=new Date()
       /* const date=current.getFullYear()+"-"+(current.getMonth()+1)+"-"+(current.getDate())
