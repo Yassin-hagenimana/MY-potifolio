@@ -12,7 +12,7 @@
           <a href="#" class="nav-link w-nav-link">Services</a>
           <a href="#" class="nav-link w-nav-link">My Work</a>
           <a href="#" class="nav-link w-nav-link">Skills</a>
-          <a href="#" class="nav-link w-nav-link">Contact</a>
+          <a href="#" class="nav-link w-nav-link">Contact Me</a>
         </nav>
         <div class="menu-button w-nav-button">
           <div class="w-icon-nav-menu"></div>
@@ -32,10 +32,7 @@
 My name is Hagenimana Yassin
 Four words to describe me are Full-stack engineer, Best developer, Hard work, Honest and Mindful
 Three things that make me happy are: Delivering full qualified systems, delivering tasks on time, learning new things and working in teams.
-My favorite subjects are C/C++,Java, web development and Design etc.
-I'm skilled in Vue js,PHP, Angular js, Java,C/C++, MysQl and Nosql databases, Node js,Laravel, Srpring boot and other software engineering
-technologies.
-I like visiting tech-companies, attending tech-conferences, Reading books
+I like visiting tech-companies, attending tech-conferences and Reading books
 Something not many people know about me is I listen to clients to understand more than what they want.</p><a href="#" class="primary-button w-button">more</a>
         </div>
         <div class="w-col w-col-6">
@@ -329,7 +326,7 @@ export default {
     gitWindow(){
       window.open("https://github.com/Yassin-hagenimana","_blank")
     },
-  emailWindow(){
+   emailWindow(){
     window.open("mailto:hyassin509@gmail.com?subject","_blank")
   }
   },

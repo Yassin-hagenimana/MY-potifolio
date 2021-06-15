@@ -28,7 +28,7 @@ const Contacts=require("../Controllers/contact")
  *       example:
  *         Names: Hagenimana Yassin
  *         Email: hyassin509@gmail.com
- *         Message: Alexander K. Dewdney
+ *         Message: Hy I'm Hagenimana Yassin from Rwanda Coding Academy
  */
 
  /**
