@@ -29,11 +29,15 @@
 
           <h1 class="heading">Yassin</h1>
           <p>
-My name is Hagenimana Yassin
-Four words to describe me are Full-stack engineer, Best developer, Hard work, Honest and Mindful
-Three things that make me happy are: Delivering full qualified systems, delivering tasks on time, learning new things and working in teams.
-I like visiting tech-companies, attending tech-conferences and Reading books
-Something not many people know about me is I listen to clients to understand more than what they want.</p><a href="#" class="primary-button w-button">more</a>
+              My name is Hagenimana Yassin,
+                I'm a software engineer who has worked with various companies in the past years.
+              I'm currently student at Rwanda coding academy. I'm an experienced software engineer with
+              excellent knowledge of software development. My main work is to develop new features for
+              the system, debug the existing software, and work on software architecture design.
+              I also help in managing the existing project scope. I'm  also responsible for
+              the architectural design of the application. I contribute
+              to the problem-solving process, business analysis, and the build of technical solutions.</p>
+             <a href="" class="primary-button w-button">more</a>
         </div>
         <div class="w-col w-col-6">
           <img src="https://uploads-ssl.webflow.com/60b7d2547df1cb5cb07bf3da/60b7d2557df1cb8f127bf3ef_hero.png" loading="lazy" alt="" />
@@ -41,39 +45,43 @@ Something not many people know about me is I listen to clients to understand mor
       </div>
     </div>
   </section>
+
   <section id="Scrolled" class="section bg-dark">
     <div class="container w-container">
-         <h2 class="services">Services</h2>
+      <h2 class="services">Services</h2>
       <div class="grid-3-columns">
         <div id="w-node-_15b6f4d8-64db-4765-fd98-e69d73dfaa18-497bf3de" class="card">
           <img src="https://uploads-ssl.webflow.com/60b7d2547df1cb5cb07bf3da/60b7d2557df1cb400c7bf3e8_photos.svg" alt="" loading="lazy" />
           <div class="card-title">Mobile developer</div>
           <div class="div-block"></div>
           <div class="card-description">
-            Analytical Skills. understand user needs in order to create applications they want to use.
-            Communication. Able to communicate both orally and in writing.
-Creativity.
-Problem Solving.
-Programming Languages needed to develop full qualified cross platforms applications.
+            I'm a mobile developer from Rwanda. 
+            I'm currently working as a software engineer at a software startup.
+             I love open source projects and a good challenge, especially when it comes to mobile development.
+             I'm a big fan of electronic music, football and travel.
           </div>
           <a href="#" class="primary-button w-button">More info</a>
         </div>
         <div id="w-node-_22754de9-f8c7-f7cd-a757-d60cd7993e10-497bf3de" class="card">
+
           <img src="https://uploads-ssl.webflow.com/60b7d2547df1cb5cb07bf3da/60b7d2557df1cbf4a57bf3e7_currency_conversion.svg" alt="" loading="lazy" />
           <div class="card-title"> Frontend & Backend Web developer</div>
-          <div class="card-description">Collaborate with front-end developers to resolve API issues,
-Develop and maintain secure and stateless web services,
-Build reusable code and libraries for future use,
-Analyze and debug issues in a complex client/server environment</div>
+          <div class="card-description">I'm a polyglot developer. I've been developing
+             web applications for more than 3 years. I'm a backend developer, but I also have
+             a love for frontend development. I had a chance to develop a Reddit clone a while back,
+              and I must say it was fun! I especially enjoyed the design aspects of it. I've been working
+               with Node.js for a while now and love the server-side JavaScript landscape. I'm also fluent in Java and its frameworks. 
+            I'm  very familiar with NoSQL databases, but I also have
+             some experience with MongoDB.t</div>
           <a id="button-style" href="#" class="primary-button w-button">More info</a>
         </div>
         <div id="w-node-_745f84bc-601c-838a-a03b-d63bac9179dc-497bf3de" class="card">
           <img src="https://uploads-ssl.webflow.com/60b7d2547df1cb5cb07bf3da/60b7d2557df1cbe2b97bf3e9_office_chair.svg" alt="" loading="lazy" />
-          <div class="card-title">Database Design and Administrator</div>
-          <div class="card-description">ensure databases run efficiently,
-             use specialized software to store and organize data,
-             such as financial information and customer shipping records.
-             make sure that data are available to users and secure from unauthorized access
+          <div class="card-title">Database Design and Analyst</div>
+          <div class="card-description">I am a database analyst and data designer.
+             I have an experience in  Information Systems and a lot of experience in this field.
+              I have created and maintained databases for a variety of businesses and organizations.
+             I can effectively and efficiently analyze and design databases and data structures.
           </div>
           <a id="button-style-2" href="#" class="primary-button w-button">more info</a>
         </div>
@@ -96,7 +104,7 @@ Analyze and debug issues in a complex client/server environment</div>
       </div>
       <div class="grid-2-columns">
         <div id="w-node-cfcd9e4e-6a2a-6207-812b-730e65a24d19-497bf3de" class="featured-text">
-          <h2 class="feature-heading">P-Check Management System.</h2>
+          <h2 class="feature-heading">P-Board Management System.</h2>
           <div class="card-description">This is system that manages compassions daily activities.
             <br/>
             <br/>It helps compassions to reduce papaer work.
@@ -111,7 +119,7 @@ Analyze and debug issues in a complex client/server environment</div>
         <div id="w-node-d12da00f-3900-ad38-5f07-413ea66a55e3-497bf3de" class="featured-text">
           <h2 class="feature-heading">Different E-commerces.</h2>
           <div class="card-description">I worked on different E-commerce websites that enables customers around to order goods and servises
-           and shipped to them without going to the markets and pay easily with differetent online payment services.
+            and shipped to them without going to the markets and pay easily with differetent online payment services.
           </div>
           <a href="#" class="feature-link">more information</a>
         </div>
@@ -132,11 +140,10 @@ Analyze and debug issues in a complex client/server environment</div>
           &check; HTML<br>
           &check; CSS<br>
           &check; Bootstrap<br>
-          &check; Jquery<br>
           &check; Vue js & Vuetify<br>
-           &check; React js<br>
+          &check; React js<br>
           &check; Javascript<br>
-          &check; Nuxt js<br>
+          &check;Vue Native<br>
       </div></li>
  
       <li>
@@ -144,32 +151,19 @@ Analyze and debug issues in a complex client/server environment</div>
         &check; Node js<br>
         &check; Spring boot<br>
         &check; Laravel<br>
+        &check; MongoDB<br>
+        &check; MysQl<br>
        </div>
        </li>
 
-
-         <li>
-         <div class="list">
-           &check; MongoDB<br>
-            &check; MysQl<br>
-            &check; PostgreSQL<br>
-       </div>
-       </li>
 
       <li>
        <div class="list">
            &check; Embedded Systemns<br>
            &check; System design and Analysis<br>
           &check;  Networking<br>
-          &check;  C/C++<br>
           &check;  Java<br>
           &check; Php
-       </div>
-       </li>
-        <li>
-       <div class="list">
-           &check; React Native<br>
-          &check;Vue Native<br>
        </div>
        </li>
     </ul>
@@ -189,14 +183,14 @@ Analyze and debug issues in a complex client/server environment</div>
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label" >Your name</label>
             <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required v-model="contact.Names">
+            <input type="text" id="Name" name="Name" class="fcf-form-control" required v-model="contact.Names">
             </div>
         </div>
 
         <div class="fcf-form-group">
             <label for="Email" class="fcf-label">Your email address</label>
             <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required v-model="contact.Email">
+            <input type="email" id="Email" name="Email" class="fcf-form-control" required v-model="contact.Email">
             </div>
         </div>
 
@@ -209,7 +203,7 @@ Analyze and debug issues in a complex client/server environment</div>
         </div>
 
         <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
         </div>
     </form>
     </div>
@@ -254,7 +248,7 @@ Analyze and debug issues in a complex client/server environment</div>
           <ul role="list" class="w-list-unstyled">
             <li><a href="#" @click="facebookWindow()" class="footer-link">Facebook</a></li>
             <li><a href="#" @click="twitterWindow()" class="footer-link">Twitter</a></li>
-            <li><a href="#"  @click="instgramWindow()" class="footer-link">Instrgram</a></li>
+            <li><a href="#"  @click="instgramWindow()" class="footer-link">Instagram</a></li>
             <li><a href="#" @click="linkedinWindow()" class="footer-link">Linkedin</a></li>
             <li><a href="#" @click="gitWindow()" class="footer-link">Github</a></li>
           </ul>
@@ -263,7 +257,7 @@ Analyze and debug issues in a complex client/server environment</div>
 
        <div class="subfooter">
         <div>Made by <span class="lightblue"></span> Yassin.</div>
-        <div>@Copyright  {{CurrenteDateTime()}}</div>
+        <div>@Copyright  {{CurrentDateTime()}}</div>
       </div>
     </div>
   </footer>
@@ -279,11 +273,10 @@ export default {
   data(){
      return{
       contact:{
-
       Names:"",
       Email:"",
       Message:""
-      }
+      },
     }
   },
 
@@ -301,7 +294,7 @@ export default {
       }
 
     },
-    CurrenteDateTime(){
+    CurrentDateTime(){
       const current=new Date()
       /* const date=current.getFullYear()+"-"+(current.getMonth()+1)+"-"+(current.getDate())
          const time = current.getHours() + ":" + current.getMinutes() + ":" + current.getSeconds();
@@ -328,8 +321,8 @@ export default {
     },
    emailWindow(){
     window.open("mailto:hyassin509@gmail.com?subject","_blank")
-  }
   },
+},
 }
 </script>
 
