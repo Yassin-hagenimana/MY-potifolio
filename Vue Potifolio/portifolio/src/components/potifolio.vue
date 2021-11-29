@@ -56,7 +56,7 @@
           <div class="div-block"></div>
           <div class="card-description">
             I'm a mobile developer from Rwanda. 
-            I'm currently working as a software engineer at a software startup.
+            I'm currently working as a software engineeri.
              I love open source projects and a good challenge, especially when it comes to mobile development.
              I'm a big fan of electronic music, football and travel.
           </div>
